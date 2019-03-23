@@ -2,7 +2,7 @@
 * @Author: Andy Hua
 * @Date:   2018-12-29 20:52:19
 * @Last Modified by:   Andy Hua
-* @Last Modified time: 2018-12-30 14:44:25
+* @Last Modified time: 2018-12-30 23:31:59
 */
 'use strict';
 var path = require('path');
@@ -44,6 +44,16 @@ var config = {
             {test : /\.(gif|png|jpg|woff|svg|eot|ttf)\??.*$/, loader : "url-loader"},
             // {test: /\.html$/, loader: 'html-loader'}
         ]
+    },
+    resolve : {
+        alias : {
+            node_modules : __dirname + '/node_modules',
+            util : __dirname + '/src/util',
+            page : __dirname + '/src/page',
+            service : __dirname + '/src/service',
+            image : __dirname + '/src/image',
+            util  : __dirname + '/src/util',
+        }
     },
     plugins : [
         new webpack.optimize.CommonsChunkPlugin({
