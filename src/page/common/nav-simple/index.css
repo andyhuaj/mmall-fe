@@ -1,0 +1,18 @@
+/*
+* @Author: Andy Hua
+* @Date:   2019-03-24 21:45:30
+* @Last Modified by:   Andy Hua
+* @Last Modified time: 2019-04-04 21:20:45
+*/
+.nav-simple{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+.nav-simple .logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #c60023;
+}

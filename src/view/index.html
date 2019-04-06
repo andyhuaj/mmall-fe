@@ -2,18 +2,28 @@
 <html lang="en">
 <head>
     <%= require('html-loader!./layout/head-common.html') %>
-    <title>happymmall电商平台</title>
+    <title>22happymmall电商平台</title>
 </head>
     <body>
-        <i class="fa fa-user"></i>
-        <div>
-            <a class="link">test</a>  
+        <%=  require('html-loader!./layout/nav.html') %>
+       <%=  require('html-loader!./layout/header.html') %>
+       <div class="page-wrap w">
+           <%=  require('html-loader!./layout/nav-side.html') %>
+           <div class="content with-nav">
+               test
+           </div>
+       </div>
+
+
+        <!-- <i class="fa fa-user"></i> -->
+       <!--  <div>
+            <a class="link">test1</a>  
             <a class="link-text">test</a> 
-        </div>
-        <div>
-            <a class="btn">test</a>  
+        </div> -->
+       <!--  <div>
+            <a class="btn">test2</a>  
             <a class="btn btn-mini">test</a> 
-        </div>
+        </div> -->
         <div>
             <div class="loading"></div>
         </div>

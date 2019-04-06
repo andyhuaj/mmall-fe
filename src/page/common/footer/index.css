@@ -1,0 +1,25 @@
+/*
+* @Author: Andy Hua
+* @Date:   2019-03-27 22:10:53
+* @Last Modified by:   Andy Hua
+* @Last Modified time: 2019-03-27 22:36:24
+*/
+.footer{
+    padding-bottom: 10px;
+}
+
+.footer .links{
+    text-align: center;
+    line-height: 30px;
+    color: #666;
+}
+
+.footer .links .link {
+    padding: 0 10px;
+}
+
+.footer .copyright{
+    text-align: center;
+    line-height: 30px;
+    color: #666;
+}
